@@ -1,0 +1,19 @@
+{
+    "Personal Access Tokens": "Jetons d'accès personnels",
+    "Generate new token": "Générer un nouveau jeton",
+    "Token name": "Nom du jeton",
+    "e.g. Script backup, Mobile app": "ex. Script backup, App mobile",
+    "Generate": "Générer",
+    "New token generated": "Nouveau jeton généré",
+    "Copy this token now. You will not be able to see it again.": "Copiez ce jeton maintenant. Vous ne pourrez plus le revoir.",
+    "Copy": "Copier",
+    "Copied!": "Copié !",
+    "Your tokens": "Vos jetons",
+    "Name": "Nom",
+    "Created": "Créé le",
+    "Last used": "Dernière utilisation",
+    "Revoke": "Révoquer",
+    "No tokens yet": "Aucun jeton",
+    "Revoke token": "Révoquer le jeton",
+    "Close": "Fermer"
+}

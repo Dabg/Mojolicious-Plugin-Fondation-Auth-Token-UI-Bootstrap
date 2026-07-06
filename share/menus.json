@@ -1,0 +1,11 @@
+[
+  {
+    "title":        "API Tokens",
+    "link":         "/profile/tokens",
+    "icon":         "fas fa-key",
+    "icon_color":   "#000000",
+    "menu":         "account_menu",
+    "parent_title": "Account",
+    "description":  "Manage personal access tokens"
+  }
+]

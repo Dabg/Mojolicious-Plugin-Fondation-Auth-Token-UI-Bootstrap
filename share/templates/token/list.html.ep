@@ -1,0 +1,58 @@
+% layout (stash('layout') // 'main');
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      <h2><%= l 'Personal Access Tokens' %></h2>
+    </div>
+  </div>
+
+  <!-- Generate new token form -->
+  <div class="card mb-4" id="generate-card">
+    <div class="card-header"><%= l 'Generate new token' %></div>
+    <div class="card-body">
+      <form id="generate-form" class="row g-2">
+        <div class="col-md-6">
+          <label for="token-name" class="form-label"><%= l 'Token name' %></label>
+          <input id="token-name" name="name" class="form-control" type="text"
+                 placeholder="<%= l 'e.g. Script backup, Mobile app' %>" required>
+        </div>
+        <div class="col-md-2 d-flex align-items-end">
+          <button type="submit" class="btn btn-primary"><%= l 'Generate' %></button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Generated token display (hidden until generation) -->
+  <div class="card mb-4 border-warning" id="token-result" style="display:none">
+    <div class="card-header bg-warning"><%= l 'New token generated' %></div>
+    <div class="card-body">
+      <p class="text-danger"><strong><%= l 'Copy this token now. You will not be able to see it again.' %></strong></p>
+      <div class="input-group mb-2">
+        <input id="raw-token" class="form-control font-monospace" type="text" readonly>
+        <button class="btn btn-outline-secondary" type="button" id="copy-btn"><%= l 'Copy' %></button>
+      </div>
+      <p><small class="text-muted"><%= l 'Token name' %>: <span id="result-name"></span></small></p>
+    </div>
+  </div>
+
+  <!-- Token list -->
+  <div class="card" id="token-panel">
+    <div class="card-header"><%= l 'Your tokens' %></div>
+    <div class="card-body">
+      <table class="table table-striped" id="token-table">
+        <thead>
+          <tr>
+            <th><%= l 'Name' %></th>
+            <th><%= l 'Created' %></th>
+            <th><%= l 'Last used' %></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

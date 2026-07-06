@@ -1,0 +1,6 @@
+Revision history for Mojolicious-Plugin-Fondation-Auth-Token-UI-Bootstrap
+
+{{$NEXT}}
+        - Initial release
+        - Bootstrap 5 UI for Personal Access Token management
+        - Route GET /profile/tokens with token list, generation and revocation

@@ -1,0 +1,19 @@
+{
+    "Personal Access Tokens": "Personal Access Tokens",
+    "Generate new token": "Generate new token",
+    "Token name": "Token name",
+    "e.g. Script backup, Mobile app": "e.g. Script backup, Mobile app",
+    "Generate": "Generate",
+    "New token generated": "New token generated",
+    "Copy this token now. You will not be able to see it again.": "Copy this token now. You will not be able to see it again.",
+    "Copy": "Copy",
+    "Copied!": "Copied!",
+    "Your tokens": "Your tokens",
+    "Name": "Name",
+    "Created": "Created",
+    "Last used": "Last used",
+    "Revoke": "Revoke",
+    "No tokens yet": "No tokens yet",
+    "Revoke token": "Revoke token",
+    "Close": "Close"
+}
