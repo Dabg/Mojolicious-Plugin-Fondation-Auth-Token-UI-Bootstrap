@@ -3,8 +3,6 @@ use Mojo::Base 'Mojolicious::Plugin', -signatures;
 
 # ABSTRACT: Bootstrap 5 UI for Personal Access Token management
 
-our $VERSION = '0.01';
-
 sub fondation_meta {
     return {
         dependencies => ['Fondation::Auth::Token', 'Fondation::Layout::Bootstrap'],
